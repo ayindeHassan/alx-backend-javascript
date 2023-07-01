@@ -69,9 +69,9 @@ console.log(guardrail(() => { return divideFunction(10, 0)})); */
 
 
 
-import asyncUploadUser from "./100-await";
+/* import asyncUploadUser from "./100-await";
 const test = async () => {
     const value = await asyncUploadUser();
     console.log(value);
 };
-test();
+test(); */
