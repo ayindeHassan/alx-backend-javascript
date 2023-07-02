@@ -14,14 +14,14 @@ export default class HolbertonCourse {
     this.length = length;
     this.students = students;
   }
-  
+
   /**
      * Gets the name of this course.
      */
   get name() {
     return this._name;
   }
-  
+
   /**
      * Sets the name of this course.
      */
@@ -31,14 +31,14 @@ export default class HolbertonCourse {
     }
     this._name = value;
   }
-  
+
   /**
      * Gets the length of this course (in months).
      */
   get length() {
     return this._length;
   }
-  
+
   /**
      * Sets the length of this course (in months).
      */
@@ -48,14 +48,14 @@ export default class HolbertonCourse {
     }
     this._length = value;
   }
-  
+
   /**
      * Gets the names of students in this course.
      */
   get students() {
     return this._students;
   }
-  
+
   /**
      * Sets the names of students in this course.
      */
